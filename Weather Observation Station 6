@@ -1,3 +1,4 @@
+# LANGUAGE USED IS ORACLE
 select city from station
 where lower(city) like ('a%') 
 or lower(city) like ('e%') 
